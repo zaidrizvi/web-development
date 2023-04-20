@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:ital,wght@1,300&family=Ubuntu&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background: var(--main-bg-color);
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 9vh;
+}
+
+
+nav ul li {
+    display: flex;
+    padding: 0px 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 83px;
+    padding: 0px 22px 0 30px;
+}
+
+
+
+.main {
+    min-height: calc(100vh - 9vh - 12vh);
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    height: 27px;
+    width: 30vw;
+    border-radius: 5px;
+    margin: 0px 16px 0 56px;
+    padding: 0px 12px;
+
+}
+
+.btn {
+    display: flex;
+    padding: 3px 10px;
+    color: white;
+    background: #2874f0;
+    border: 2px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    font-weight: bolder;
+
+}
+
+.search button {
+    background: var(--main-bg-color);
+    font-weight: 900px;
+
+}
+
+.slider {
+    margin: 37px 23px 30px 41px;
+    width: 80vw;
+    padding: 0px 161px;
+    overflow: hidden;
+    
+}
+.slider img{
+    height: 400px;
+    overflow: hidden;
+    
+}
+
+.card {
+    max-width: 89vw;
+
+    margin: 37px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card h2 {
+
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+h2 {
+    margin: 26px 0;
+}
+
+
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 15px;
+}
+
+.my-2 {
+    margin: 5px 0;
+}
+
+.my-1 {
+    margin: 12px;
+}
+
+.lines {
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+footer {
+    height: 12vh;
+    background-color: black;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    background: var(--main-bg-color);
+}
